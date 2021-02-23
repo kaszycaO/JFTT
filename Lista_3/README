@@ -1,0 +1,33 @@
+################################################
+################# LISTA 3 ######################
+################################################
+
+
+Dostarczone pliki: zad1.l, zad1.y, zad2.py, Makefile, README
+
+Kompilacja programu w ramach zadania 1. poprzez wywolanie komendy:
+
+make
+
+Wywolanie programow:
+
+- zad1
+
+./zad1 lub ./zad1 < plik.txt
+
+W przypadku pierwszym zostanie uruchomiona sesja w której ręcznie podaje się działania 
+(dana linijka zostanie przetworzona po kliknieciu klawisza ENTER).
+W drugim przypadku dane testowe zostana wczytane z pliku: plik.txt.
+
+- zad2
+
+python3 zad2.py lub python3 zad2.py < plik.txt
+
+Zasady podobne jak wyżej.
+
+Plik zad2.py składa się z dwoch sekcji oddzielonych komentarzami: LEXER oraz PARSER.
+
+Po zakonczonym sprawdzaniu, zbedne pliki mozna usunac za pomoca komendy:
+
+make clean
+

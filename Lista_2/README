@@ -1,0 +1,58 @@
+################################################
+################# LISTA 2 ######################
+################################################
+
+
+Dostarczone pliki: zad1.l, zad2.l, zad3.l, zad4.l, Makefile, README
+
+Kompilacja programow poprzez wywolanie komendy:
+
+make
+
+Wszystkie programy zostana skompilowane.
+
+Wywolanie programow:
+
+- zad1
+
+./zad1 < plik.txt
+
+Gdzie plik.txt to plik z danymi testowymi 
+
+
+- zad2
+
+./zad2 < plik.py
+
+Gdzie plik.py to skrypt pythonowy (lub txt z odpowiednia skladnia) z przykladowymi komentarzami do usuniecia.
+
+
+- zad3
+
+./zad3 < plik.cpp
+
+
+Gdzie plik.cpp to skrypt napisany w c++ (lub txt z odpowiednia skladnia) z przykladowymi komentarzami do usuniecia.
+
+
+- zad4
+
+./zad4  lub ./zad4 < plik.txt
+
+
+W przypadku pierwszym zostanie uruchomiona sesja w której ręcznie podaje się działania 
+(dana linijka zostanie przetworzona po kliknieciu klawisza ENTER).
+W drugim przypadku dzialania beda czytane linijka po linijce z podanego pliku tekstowego.
+
+UWAGA (odnosnie zadania 2 i 3)
+
+- Jezyk python nie akceptuje znaku kontynuacji linii w komentarzach, np.
+
+# komentarz \
+tu juz nie ma komentarza
+
+(Zgodnie z Python3)
+
+- Jezyk c++ nie rozroznia parzystosci znakow kontynuacji linii w komentarzach, tzn.
+zarowno \ jak i \\ \\\ \\\\ itd. kontynuuje dana linie.
+ 
